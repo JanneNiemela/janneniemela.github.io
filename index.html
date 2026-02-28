@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Janne Niemelä's portfolio</Title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="description" content="Janne Niemelä's portfolio website.">
+  <meta name="keywords" content="Janne Niemelä, Janne Niemela, portfolio, Vortex of Pain, Skaalaaja">
+  <meta name="author" content="Janne Niemelä">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse" ; id="navbar">
+    <div class="container-fluid blue">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#About">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="About">
+    <div class="container">
+      <div class="centerTextDiv">
+        <h1>
+          Hi! I'm Janne Niemelä. I'm a software developer from Oulu, Finland, specialized in Unity/C#, C++/Qt, and
+          usability.<span id="cursor">|</span>
+        </h1>
+      </div>
+    </div>
+  </section>
+  <section id="Projects" class="nav-target-element">
+    <div class="container">
+      <h1>Here are some projects I have been involved in:</h1>
+    </div>
+    <div class="container" id="VoP">
+      <div class="row">
+        <h2>Vortex of Pain (Unity/C#)</h2>
+        <br>
+        <div class="col-sm-8">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner imageGlow" role="listbox">
+              <div class="item active">
+                <img src="images/vop/arcade_brawl.jpg" alt="Image 1" class="imageFrames">
+              </div>
+              <div class="item">
+                <img src="images/vop/aurora_borealis.png" alt="Image 2" class="imageFrames">
+              </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <br>
+          <p>
+            VoP is a multiplayer fighting game for PC that mixes 2D and 3D graphics developed with Unity/C#.
+            Visit <a href="https://store.steampowered.com/app/887170/Vortex_Of_Pain/" target="_blank">VoP's Steam store
+              page</a>.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h3><u>My main responsibilities:</u></h3>
+          <ul>
+            <li>Being the main developer/game designer.</li>
+            <li>Designed the overall software architecture.</li>
+            <li>Programmed all things related to gameplay.</li>
+            <li>Programmed many kinds of interactive game objects.</li>
+            <li>Designed and programmed menus.</li>
+            <li>Programmed some parts of the AI systems for characters.</li>
+            <li>Co-designed and implemented levels.</li>
+            <li>Optimized performance.</li>
+            <li>Composed the soundtrack.</li>
+            <li>Programmed audio systems and did audio design.</li>
+            <li>Implemented real-time animation smoothing/reaction features utilizing inverse kinematics.</li>
+            <li>Created some of the character animations.</li>
+            <li>Designed and implemented a myriad of unique mechanics for characters.</li>
+          </ul>
+        </div>
+      </div>
+      <br>
+    </div>
+    <div class="container" id="Skaalaaja">
+      <div class="row">
+        <h2>Skaalaaja (C++/Qt)</h2>
+        <br>
+        <div class="col-sm-8">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner imageGlow" role="listbox">
+              <div class="item active">
+                <img src="images/skaalaaja/skaalaaja_esrgan.png" alt="Image 1" class="imageFrames">
+              </div>
+            </div>
+          </div>
+          <br>
+          <p>
+            Skaalaaja is an image upscaling and browsing application for Windows, programmed with C++/Qt, designed and
+            programmed by me.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h3><u>Skaalaaja:</u></h3>
+          <ul>
+            <li>Uses modern Real-ESRGAN AI image upscaling.</li>
+            <li>Has image browsing and sorting capabilities.</li>
+          </ul>
+        </div>
+      </div>
+      <br>
+    </div>
+    <div class="container" id="Skelimination">
+      <div class="row">
+        <h2>Skelimination (Unity/C#)</h2>
+        <br>
+        <div class="col-sm-8">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner imageGlow" role="listbox">
+              <div class="item active">
+                <img src="images/skelimination/skelimination.png" alt="Image 1" class="imageFrames">
+              </div>
+            </div>
+          </div>
+          <br>
+          <p>
+            Skelimination is an augmented reality fighting game tech demo for Android devices developed with Unity/C#
+            and Vuforia
+            where the goal is to knock enemy skeletons off a board that is drawn on a physical surface.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h3><u>My main responsibilities:</u></h3>
+          <ul>
+            <li>Designed and implemented skeleton AI.</li>
+            <li>Programmed character attribute systems.</li>
+          </ul>
+        </div>
+      </div>
+      <br>
+    </div>
+  </section>
+  <section id="Contact" class="nav-target-element">
+    <div class="container">
+      <div class="centerTextDiv">
+        <h1>Contact me at:</h1>
+        <h2><a href="mailto:janneniemela90@gmail.com" target="_blank"
+            rel="noopener noreferrer">janneniemela90@gmail.com</a></h2>
+        <h2><a href="https://www.linkedin.com/in/janne-niemel%C3%A4-8093ab12a/" target="_blank"
+            rel="noopener noreferrer">LinkedIn</a></h2>
+        <h2><a href="https://github.com/JanneNiemela" target="_blank" rel="noopener noreferrer">GitHub</a></h2>
+      </div>
+    </div>
+  </section>
+  <script src='scripts.js'></script>
+</body>
+
+</html>
